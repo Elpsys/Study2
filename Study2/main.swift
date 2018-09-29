@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
-
+var n = 0
+var all = 0
+for n in 0...100
+{
+    all = all + n
+}
+print(all)
